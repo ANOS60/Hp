@@ -1,4 +1,4 @@
-html lang="en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -223,7 +223,7 @@ html lang="en">
         const createSparkle = () => {
             const sparkle = document.createElement('div');
             sparkle.classList.add('sparkle');
-            sparkle.style.left = `${Math.random() * 100}vw`;
+            sparkle.style.left = `${Math.random() * 100}vw6yuhb`;
             sparkle.style.top = `${Math.random() * 100}vh`;
             document.body.appendChild(sparkle);
             setTimeout(() => sparkle.remove(), 3000);
